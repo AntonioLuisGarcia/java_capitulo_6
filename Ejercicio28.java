@@ -9,27 +9,23 @@
 // antepenúltima, etc. Se debe mostrar por pantalla tanto el array original como
 // el array resultado.
 
-import java.util.Scanner;
 public class Ejercicio28{
-	public static void main(String[] args){
-		Scanner sc = new Scanner(System.in);
-        System.out.println("Diga la longitud del array");
-        int longitud = sc.nextInt();
-        int aleatorio=0;
-        System.out.print("Indice  ");
-
-        for(int i=1;i<=longitud;i++){
-            System.out.print("  "+i+"  ");
-        }
-
-        System.out.println(" ");
-        System.out.print("Valor  ");
-
-        for(int i=1;i<=longitud;i++){
-            aleatorio=(int)(Math.random()*201);
-            System.out.print(" "+aleatorio+"  ");
+    public static void main(String[] args) {
+        int altura = (int)(Math.random() * 6) * 2 + 3;
+        
+        System.out.println("*    *   ****   *        ****");
+        
+        for (int i = 1; i < altura / 2; i++) {
+          System.out.println("*    *  *    *  *       *    *");
         }
         
-        sc.close();
+        System.out.println("******  *    *  *       ******");
+        
+        for (int i = 1; i < altura / 2; i++) {
+          System.out.println("*    *  *    *  *       *    *");
         }
-	}
+        
+        System.out.println("*    *   ****   ******  *    *");
+      }
+  
+  }
