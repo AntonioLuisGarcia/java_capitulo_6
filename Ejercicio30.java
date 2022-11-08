@@ -12,9 +12,9 @@ public class Ejercicio30{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
         System.out.println("Con este programa haremos una pecera ");
-        System.out.println("Diga la anchura, como minimo 4 ");
+        System.out.println("Diga la anchura, como minimo 5 ");
         int anchura = sc.nextInt();
-        System.out.println("Diga la altura, como minimo 4 ");
+        System.out.println("Diga la altura, como minimo 5 ");
         int altura=sc.nextInt();
         boolean repetir=true;
             int x_pez=0;
