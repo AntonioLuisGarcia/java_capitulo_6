@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class figuras{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.println("Este programa genera una figura aleatoria de un tamaño aleatorio con un maximo determinado");
         System.out.println("Cual quieres que sea el maximo del tamaño");
         int maximo=sc.nextInt();
@@ -120,8 +119,6 @@ public class figuras{
             break;
 
         }
-
-
         
         sc.close();
     }
