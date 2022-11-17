@@ -6,7 +6,7 @@ public class figuras{
         System.out.println("Este programa genera una figura aleatoria de un tamaño aleatorio con un maximo determinado");
         System.out.println("Cual quieres que sea el maximo del tamaño");
         int maximo=sc.nextInt();
-        int figura=(int)(Math.random()*5+1);
+        int figura=(int)(Math.random()*6+1);
         int tamaño=0;
 
         //para que la figura no sea tan pequeña o cree solo una linea
@@ -80,6 +80,24 @@ public class figuras{
             for(int i=1;i<=tamaño;i++){
 
                 for(int j=1;j<=i*2-1;j++){
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
+
+            break;
+
+            //el caso 6 sera para un triangulo invertido
+
+            case 6:
+
+            for(int i=1;i<=tamaño;i++){
+
+                for(int j=i;j>i;j--){
+                    System.out.print(" ");
+                }
+
+                for(int j=i*2-1;j<=tamaño*2-1;j++){
                     System.out.print("*");
                 }
                 System.out.println();
