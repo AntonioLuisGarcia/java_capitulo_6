@@ -29,16 +29,28 @@ public class temperaturas{
         for(int i=40;i>=0;i--){
 
             if(i%5==0){
-                System.out.printf("%4s",i+"|");
+                System.out.printf("%4s",i+"| ");
             }else{
-                System.out.printf("%4s","|");
+                System.out.printf("%4s","| ");
             }
 
+            for(int j=0;j<meses.length;j++){
+
+                if(meses[j]>=i){
+                    System.out.print("** ");
+                }else{
+                    if(i>0){
+                        System.out.print("   ");
+                    }
+                }
+
+            }
             if(i==0){
                 for(int j=1;j<=36;j++){
                     System.out.print("_");
                 }
             }
+
             System.out.println();
         }
 
