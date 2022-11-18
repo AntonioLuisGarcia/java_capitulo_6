@@ -10,6 +10,11 @@ public class temperaturas{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
         System.out.println("Con este programa te haremos una tabla de las temperaturas en cada mes del año");
+        System.out.println("Los meses con mas temperatura saldran en rojo");
+        System.out.println("Los meses con menos temperatura saldran en azul");
+        System.out.println("Los meses con una temperatura intermedia saldran en verde");
+        System.out.println("Los meses intermedios saldran en blanco");
+
 
         //aunque no hayamos dado arrays aun usare uno para que sea mas rapido el ejercicio
 
