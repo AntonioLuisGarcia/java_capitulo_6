@@ -37,24 +37,26 @@ public class temperaturas{
             for(int j=0;j<meses.length;j++){
 
                 if(meses[j]>=i){
-                    System.out.print("** ");
+                    System.out.print("*** ");
                 }else{
                     if(i>0){
-                        System.out.print("   ");
+                        System.out.print("    ");
                     }
                 }
 
             }
             if(i==0){
-                for(int j=1;j<=36;j++){
-                    System.out.print("_");
+                System.out.println();
+                System.out.printf("%3s","|");
+                for(int j=1;j<=48;j++){
+                    System.out.print("-");
                 }
             }
 
             System.out.println();
         }
 
-        System.out.printf("%4s %-4s","","EN");
+        System.out.printf("%3s %2s %2s %2s %2s %2s %2s %2s %2s %2s %2s %2s %2s","","ENE","FEB","MAR","ABR","MAY","JUN","JUL","AGO","SEP","OCT","NOV","DIC");
 
         sc.close();
         }
