@@ -1,6 +1,6 @@
 /*En este ejercicio mostraremos una tabla con cada mes del año y su temperatura media
- * sera de forma aleatorio y los meses de verano tendra una probabilidad mayor de temperaturas altas
- * y los meses de invierno de temperatura mas baja
+ * sera de forma aleatorio y los temperaturaMeses de verano tendra una probabilidad mayor de temperaturas altas
+ * y los temperaturaMeses de invierno de temperatura mas baja
  */
 
 import java.util.Scanner;
@@ -11,7 +11,7 @@ public class temperaturas{
 
         //aunque no hayamos dado arrays aun usare uno para que sea mas rapido el ejercicio
 
-        int[] meses= new int[12];
+        int[] temperaturaMeses= new int[12];
 
         //para dar color a las tablas
 
@@ -23,15 +23,15 @@ public class temperaturas{
 
         String reset="\u001B[0m";
 
-        for(int i=0;i<meses.length;i++){
+        for(int i=0;i<temperaturaMeses.length;i++){
 
             if(i>5 && i<9){
-                meses[i]=(int)(Math.random()*15+26);
+                temperaturaMeses[i]=(int)(Math.random()*15+26);
             }else{
                 if(i==11 || i==0 || i==10){
-                    meses[i]=(int)(Math.random()*16);
+                    temperaturaMeses[i]=(int)(Math.random()*16);
                 }else{
-                    meses[i]=(int)(Math.random()*26);
+                    temperaturaMeses[i]=(int)(Math.random()*26);
                 }
             }
         }
@@ -44,17 +44,17 @@ public class temperaturas{
                 System.out.printf("%4s","| ");
             }
 
-            for(int j=0;j<meses.length;j++){
+            for(int j=0;j<temperaturaMeses.length;j++){
 
-                if(meses[j]>=i){
+                if(temperaturaMeses[j]>=i){
 
-                    if(meses[j]>30){
+                    if(temperaturaMeses[j]>30){
                         System.out.print(red+"*** "+reset);
                     }else{
-                        if(meses[j]<12){
+                        if(temperaturaMeses[j]<12){
                             System.out.print(cyan+"*** "+reset);
                         }else{
-                            if(meses[j]<30 && meses[j]>20){
+                            if(temperaturaMeses[j]<30 && temperaturaMeses[j]>20){
                                 System.out.print(blue+"*** "+reset);
                             }else{
                                 System.out.print("*** ");
