@@ -1,6 +1,8 @@
 /*En este ejercicio mostraremos una tabla con cada mes del año y su temperatura media
  * sera de forma aleatorio y los temperaturaMeses de verano tendra una probabilidad mayor de temperaturas altas
  * y los temperaturaMeses de invierno de temperatura mas baja
+ * 
+ * @author AntonioLuisGarcia
  */
 
 import java.util.Scanner;
