@@ -8,6 +8,7 @@
 // en la segunda, el cuarto en la penúltima, el quinto en la tercera, en sexto en la
 // antepenúltima, etc. Se debe mostrar por pantalla tanto el array original como
 // el array resultado.
+//@author AntonioLuisGarcia
 
 public class Ejercicio28{
     public static void main(String[] args) {

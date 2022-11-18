@@ -1,6 +1,7 @@
 // Ejercicio 24
 // Escribe un programa que, dado un número introducido por teclado, elija al azar
 // uno de sus dígitos.
+//@author AntonioLuisGarcia
 
 import java.util.Scanner;
 public class Ejercicio24{

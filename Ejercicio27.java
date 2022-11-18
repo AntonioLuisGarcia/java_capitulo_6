@@ -3,6 +3,7 @@
 // jugada y luego el ordenador genera al azar una de las opciones. Si el usuario
 // introduce una opción incorrecta, el programa deberá mostrar un mensaje de
 // error.
+//@author AntonioLuisGarcia
 
 import java.util.Scanner;
 public class Ejercicio27{

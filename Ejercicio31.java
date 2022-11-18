@@ -9,6 +9,7 @@
 // entra en una segunda etapa. En esta etapa, el jugador buscará volver a obtener
 // ese número en los dados. Si consigue repetir ese número, gana. Si sale un 7,
 // pierde. Si sale otro número, tiene que seguir tirando.
+//@author AntonioLuisGarcia
 
 import java.util.Scanner;
 public class Ejercicio31{

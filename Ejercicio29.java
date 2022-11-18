@@ -5,6 +5,7 @@
 // últimas décadas para cada estación. La probabilidad de que esté soleado
 // o nublado en cada estación se proporciona a continuación. Obviamente, la
 // temperatura mínima deberá ser menor o igual que la temperatura máxima.
+//@author AntonioLuisGarcia
 
 import java.util.Scanner;
 public class Ejercicio29{

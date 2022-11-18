@@ -7,6 +7,7 @@
 // coloque una posición a la izquierda del anterior, alineado con el anterior o una
 // posición a la derecha del anterior. La longitud de la serpiente se pedirá por
 // teclado y se supone que el usuario introducirá un dato correcto.
+//@author AntonioLuisGarcia
 
 import java.util.Scanner;
 public class Ejercicio22{

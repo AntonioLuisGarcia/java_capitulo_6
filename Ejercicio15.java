@@ -8,6 +8,7 @@
 // compás mediante la barra vertical “|” (Alt + 1). El final de la melodía se marca
 // con dos barras.
 // d) La última nota de la melodía debe coincidir con la primera.
+//@author AntonioLuisGarcia
 
 public class Ejercicio15 {
     public static void main(String[] args) {

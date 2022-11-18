@@ -10,6 +10,7 @@
 // sendero (en una línea), puede ser una planta (carácter *) o una piedra (carácter
 // O), la probabilidad de que salga uno u otro es la misma. Recuerda que nunca
 // habrá más de un obstáculo por metro de sendero, habrá uno o ninguno.
+//@author AntonioLuisGarcia
 
 import java.util.Scanner;
 public class Ejercicio32{

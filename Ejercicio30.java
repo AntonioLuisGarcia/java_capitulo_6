@@ -6,6 +6,7 @@
 // una cuestión de física elemental, ninguno de los animales puede coincidir
 // en la misma posición. Se debe pedir al usuario el ancho y el alto de la pecera,
 // que como mínimo serán de 4 unidades.
+//@author AntonioLuisGarcia
 
 import java.util.Scanner;
 public class Ejercicio30{

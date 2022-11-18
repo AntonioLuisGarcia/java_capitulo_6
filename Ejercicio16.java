@@ -9,6 +9,7 @@
 // ha recuperado su moneda”.
 // d) Si las tres figuras son iguales se debe mostrar “Enhorabuena, ha ganado
 // 10 monedas”.
+//@author AntonioLuisGarcia
 
 public class Ejercicio16 {
     public static void main(String[] args) {

@@ -3,6 +3,7 @@
 // forma aleatoria. El ancho y el alto de la tableta se pide por teclado. El bocado se
 // da alrededor del turrón, obviamente no se puede dar un bocado por en medio
 // de la tableta.
+//@author AntonioLuisGarcia
 
 import java.util.Scanner;
 public class Ejercicio26{

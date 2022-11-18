@@ -1,3 +1,6 @@
+/*
+ * @author AntonioLuisGarcia
+ */
 import java.util.Scanner;
 public class figuras{
     public static void main(String[] args) {

@@ -5,6 +5,7 @@
 // cada dormitorio) de tal forma que no se repita ninguno. Los colores entre los que
 // debe elegir el programa son los siguientes: rojo, azul, verde, amarillo, violeta y
 // naranja.
+//@author AntonioLuisGarcia
 
 public class Ejercicio18{
     public static void main(String[] args){

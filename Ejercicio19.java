@@ -3,6 +3,7 @@
 // entre el -100 y el 200 ambos incluidos y separados por espacios. Muestra luego
 // el máximo de los pares el mínimo de los impares y la media de todos los
 // números generados.
+//@author AntonioLuisGarcia
 
 public class Ejercicio19 {
     public static void main(String[] args) {

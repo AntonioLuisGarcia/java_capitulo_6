@@ -1,5 +1,6 @@
 // Ejercicio 4
 // Muestra 20 números enteros aleatorios entre 0 y 10 (ambos incluidos) separados por espacios.
+//@author AntonioLuisGarcia
 
 public class Ejercicio04 {
     public static void main(String[] args) {
