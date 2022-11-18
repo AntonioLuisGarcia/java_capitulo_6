@@ -13,6 +13,16 @@ public class temperaturas{
 
         int[] meses= new int[12];
 
+        //para dar color a las tablas
+
+        String red="\033[31m";
+        String cyan="\033[36m"; 
+        String blue="\033[34m"; 
+
+        //para resetear el color
+
+        String reset="\u001B[0m";
+
         for(int i=0;i<meses.length;i++){
 
             if(i>5 && i<9){
@@ -37,7 +47,20 @@ public class temperaturas{
             for(int j=0;j<meses.length;j++){
 
                 if(meses[j]>=i){
-                    System.out.print("*** ");
+
+                    if(meses[j]>30){
+                        System.out.print(red+"*** "+reset);
+                    }else{
+                        if(meses[j]<12){
+                            System.out.print(cyan+"*** "+reset);
+                        }else{
+                            if(meses[j]<30 && meses[j]>20){
+                                System.out.print(blue+"*** "+reset);
+                            }else{
+                                System.out.print("*** ");
+                            }
+                        }
+                    }
                 }else{
                     if(i>0){
                         System.out.print("    ");
