@@ -8,7 +8,7 @@
  * @author Antonio Luis Garcia
  */
 
-
+ 
 public class horario{
 	public static void main(String[] args){
 

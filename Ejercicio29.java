@@ -44,40 +44,24 @@ public class Ejercicio29{
 
                             switch(nublado){
                                 case 1:
-                                    System.out.print("Soleado");
-                                    break;
 
                                 case 2:
-                                    System.out.print("Soleado");
-                                    break;
                                 
                                 case 3:
-                                    System.out.print("Soleado");
-                                    break;
 
                                 case 4:
-                                    System.out.print("Soleado");
-                                    break;
 
                                 case 5:
-                                    System.out.print("Soleado");
-                                    break;
 
                                 case 6:
                                     System.out.print("Soleado");
                                     break;
 
                                 case 7:
-                                    System.out.print("Nublado");
-                                    break;
 
                                 case 8:
-                                    System.out.print("Nublado");
-                                    break;
 
                                 case 9:
-                                    System.out.print("Nublado");
-                                    break;
 
                                 case 10:
                                     System.out.print("Nublado");
@@ -112,40 +96,24 @@ public class Ejercicio29{
     
                             switch(nublado){
                                 case 1:
-                                    System.out.print("Soleado");
-                                    break;
     
                                 case 2:
-                                    System.out.print("Soleado");
-                                    break;
                                 
                                 case 3:
-                                    System.out.print("Soleado");
-                                    break;
     
                                 case 4:
-                                    System.out.print("Soleado");
-                                    break;
     
                                 case 5:
-                                    System.out.print("Soleado");
-                                    break;
     
                                 case 6:
-                                    System.out.print("Soleado");
-                                    break;
     
                                 case 7:
-                                    System.out.print("Soleado");
-                                    break;
     
                                 case 8:
                                     System.out.print("Soleado");
                                     break;
     
                                 case 9:
-                                    System.out.print("Nublado");
-                                    break;
     
                                 case 10:
                                     System.out.print("Nublado");
@@ -180,40 +148,24 @@ public class Ejercicio29{
     
                             switch(nublado){
                                 case 1:
-                                    System.out.print("Soleado");
-                                    break;
     
                                 case 2:
-                                    System.out.print("Soleado");
-                                    break;
                                 
                                 case 3:
-                                    System.out.print("Soleado");
-                                    break;
     
                                 case 4:
                                     System.out.print("Soleado");
                                     break;
     
                                 case 5:
-                                    System.out.print("Nublado");
-                                    break;
     
                                 case 6:
-                                    System.out.print("Nublado");
-                                    break;
-    
+                                
                                 case 7:
-                                    System.out.print("Nublado");
-                                    break;
     
                                 case 8:
-                                    System.out.print("Nublado");
-                                    break;
     
                                 case 9:
-                                    System.out.print("Nublado");
-                                    break;
     
                                 case 10:
                                     System.out.print("Nublado");
@@ -248,40 +200,24 @@ public class Ejercicio29{
     
                             switch(nublado){
                                 case 1:
-                                    System.out.print("Soleado");
-                                    break;
     
                                 case 2:
                                     System.out.print("Soleado");
                                     break;
                                 
                                 case 3:
-                                    System.out.print("Nublado");
-                                    break;
     
                                 case 4:
-                                    System.out.print("Nublado");
-                                    break;
-    
+
                                 case 5:
-                                    System.out.print("Nublado");
-                                    break;
-    
+
                                 case 6:
-                                    System.out.print("Nublado");
-                                    break;
-    
+
                                 case 7:
-                                    System.out.print("Nublado");
-                                    break;
     
                                 case 8:
-                                    System.out.print("Nublado");
-                                    break;
-    
+
                                 case 9:
-                                    System.out.print("Nublado");
-                                    break;
     
                                 case 10:
                                     System.out.print("Nublado");
