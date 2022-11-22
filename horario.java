@@ -21,10 +21,17 @@ public class horario{
         int contador2=4;
         int contador3=8;
         int contador4=3;
-        int contador5=6;
+        int contador5=3;
         int contador6=3;
-        int contador
+        int contadorViernes=0;
         boolean repetir=true;
+        int aleatorioViernes=(int)(Math.random()*2+1);
+        String viernes;
+        if(aleatorioViernes==1){
+            viernes="FOL";
+        }else{
+            viernes="SINF";
+        }
 
         System.out.printf("%6s|   LUNES   |  MARTES   | MIÉRCOLES |  JUEVES   |  VIERNES  |\n", "");
         System.out.print("-------------------------------------------------------------------\n");
@@ -38,6 +45,7 @@ public class horario{
             System.out.printf("%2d:%2d |", h, m);
             h++;
             for (int j = 1; j <= 5; j++) {
+
 
                 if (i == 3) {
                     switch (j) {
@@ -59,74 +67,91 @@ public class horario{
                     System.out.printf("    %2s     |", recreo);
                 } else {
 
-                    do{
-                        repetir=false;
-                        aleatorioAsignatura=(int)(Math.random()*6+1);
-                        switch (aleatorioAsignatura) {
-                            case 1:
-                                asignatura="BBDD";
-                                contador1--;
-                                break;
-                                
-                            case 2:
-                            asignatura="LMARCAS";
-                                contador2--;
-                                break;
-                                
-                            case 3:
-                                asignatura="PROG";
-                                contador3--;
-                                break;
-    
-                            case 4:
-                                asignatura="ENTDES"; 
-                                contador4--;   
-                                break;
-    
-                            case 5:
-                                asignatura="SINF"; 
-                                contador5--;   
-                                break;
-    
-                            default:
-                                asignatura="FOL";
-                                contador6--;
-                                break;
+                    if(contadorViernes==16){
+                        if(viernes.equals("FOL")){
+                            viernes="SINF";
+                        }else{
+                            viernes="FOL";
                         }
-    
-                        if(contador1==-1){
-                            contador1++;
-                            repetir=true;
-                        }
-    
-                        if(contador2==-1){
-                            contador2++;
-                            repetir=true;
-                        }
-    
-                        if(contador3==-1){
-                            contador3++;
-                            repetir=true;
-                        }
-    
-                        if(contador4==-1){
-                            contador4++;
-                            repetir=true;
-                        }
-    
-                        if(contador5==-1){
-                            contador5++;
-                            repetir=true;
-                        }
-    
-                        if(contador6==-1){
-                            contador6++;
-                            repetir=true;
-                        }
+                    }
 
-                    }while(repetir);
+                    contadorViernes++;
 
-                    System.out.printf("  %-7s  |", asignatura);
+                    if(contadorViernes%5==0){
+                        System.out.printf("  %-7s  |", viernes);
+                    }else{
+
+                            do{
+                                repetir=false;
+                                aleatorioAsignatura=(int)(Math.random()*5+1);
+                                switch (aleatorioAsignatura) {
+                                    case 1:
+                                        asignatura="BBDD";
+                                        contador1--;
+                                        break;
+                                        
+                                    case 2:
+                                    asignatura="LMARCAS";
+                                        contador2--;
+                                        break;
+                                        
+                                    case 3:
+                                        asignatura="PROG";
+                                        contador3--;
+                                        break;
+            
+                                    case 4:
+                                        asignatura="ENTDES"; 
+                                        contador4--;   
+                                        break;
+            
+                                    case 5:
+                                        asignatura="SINF"; 
+                                        contador5--;   
+                                        break;
+            
+                                    default:
+                                        asignatura="FOL";
+                                        contador6--;
+                                        break;
+                                }
+            
+                                if(contador1==-1){
+                                    contador1++;
+                                    repetir=true;
+                                }
+            
+                                if(contador2==-1){
+                                    contador2++;
+                                    repetir=true;
+                                }
+            
+                                if(contador3==-1){
+                                    contador3++;
+                                    repetir=true;
+                                }
+            
+                                if(contador4==-1){
+                                    contador4++;
+                                    repetir=true;
+                                }
+            
+                                if(contador5==-1){
+                                    contador5++;
+                                    repetir=true;
+                                }
+            
+                                if(contador6==-1){
+                                    contador6++;
+                                    repetir=true;
+                                }
+        
+                            }while(repetir);
+
+
+                        System.out.printf("  %-7s  |", asignatura);
+                    }
+
                 }
             }
             System.out.println();
