@@ -11,8 +11,12 @@ public class Ejercicio02 {
     System.out.println("Genera al azar una carta de poker");
         int palo = (int)(Math.random()*4+1); 
         int numero = (int)(Math.random()*13+1); 
-        
-        switch(palo){
+        String[] numeros = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"}; 
+        String[] palos = {"corazones", "diamantes", "picas", "treboles"}; 
+        String salida = numeros[numero] + " de " + palos[palo];
+
+        System.out.println(salida);
+        /*switch(palo){
             case 1:
                 switch(numero){
                     case 1:
@@ -190,8 +194,7 @@ public class Ejercicio02 {
                     break;
                 }
                 break;
-        }
-
+        }*/
         }
     }
     
